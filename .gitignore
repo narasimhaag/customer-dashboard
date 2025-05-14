@@ -1,0 +1,44 @@
+# === Root-level ignores ===
+.DS_Store
+*.log
+.env*
+!.env.example
+.idea/
+.vscode/
+.turbo/
+
+# === Package managers ===
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+.pnpm-store/
+
+# === Turborepo ===
+.turbo/
+
+# === Apps ===
+apps/*/node_modules/
+apps/*/.next/
+apps/*/out/
+apps/*/dist/
+apps/*/build/
+apps/backend/node_modules/
+apps/backend/out/
+apps/frontend/node_modules/
+apps/frontend/out/
+apps/web/node_modules/
+apps/web/out/
+
+
+# === Packages ===
+packages/*/node_modules/
+packages/*/dist/
+packages/*/build/
+
+# === System files ===
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
