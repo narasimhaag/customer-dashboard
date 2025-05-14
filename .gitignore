@@ -24,12 +24,7 @@ apps/*/.next/
 apps/*/out/
 apps/*/dist/
 apps/*/build/
-apps/backend/node_modules/
-apps/backend/out/
-apps/frontend/node_modules/
-apps/frontend/out/
-apps/web/node_modules/
-apps/web/out/
+
 
 
 # === Packages ===
